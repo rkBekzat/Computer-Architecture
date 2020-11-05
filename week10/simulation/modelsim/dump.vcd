@@ -1,0 +1,48 @@
+$date
+	Thu Nov 05 23:44:27 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module half_adder_testbench $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var wire 1 # sum $end
+$var wire 1 $ carry $end
+
+$scope module ha $end
+$var wire 1 % bit1 $end
+$var wire 1 & bit2 $end
+$var wire 1 # sum $end
+$var wire 1 $ carry $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+1#
+0$
+1&
+0%
+$end
+#5
+1!
+0"
+1%
+0&
+#10
+0!
+0%
+0#
+#15
+1!
+1"
+1%
+1&
+1$

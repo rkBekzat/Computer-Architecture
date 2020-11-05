@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/innopolis 1st semestr/Computer Architecture/week10/ex1/simulation/modelsim
+vhalf
+!s110 1604601626
+!i10b 1
+!s100 ?bjB`mP:F1=Zb[NRf`;R<1
+Id6lieA@[PSVzZk4;b^nI]0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1604601313
+8D:/innopolis 1st semestr/Computer Architecture/week10/ex1/half.v
+FD:/innopolis 1st semestr/Computer Architecture/week10/ex1/half.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1604601626.000000
+!s107 D:/innopolis 1st semestr/Computer Architecture/week10/ex1/half.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/innopolis 1st semestr/Computer Architecture/week10/ex1|D:/innopolis 1st semestr/Computer Architecture/week10/ex1/half.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+D:/innopolis 1st semestr/Computer Architecture/week10/ex1}
+Z6 tCvgOpt 0
+vhalf_adder_testbench
+!s110 1604601627
+!i10b 1
+!s100 :Q<S0WK3nYho9U5HBzz1N1
+Il^<A[W8]<1MDh^>J<FRRl2
+R1
+R0
+w1604599216
+8D:/innopolis 1st semestr/Computer Architecture/week10/ex1/half_adder_testbench.v
+FD:/innopolis 1st semestr/Computer Architecture/week10/ex1/half_adder_testbench.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 D:/innopolis 1st semestr/Computer Architecture/week10/ex1/half_adder_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/innopolis 1st semestr/Computer Architecture/week10/ex1|D:/innopolis 1st semestr/Computer Architecture/week10/ex1/half_adder_testbench.v|
+!i113 1
+R4
+R5
+R6
+vhard_block
+!s110 1604601625
+!i10b 1
+!s100 9YRF0XiF85;T6Z8:LPLDf0
+Ikhdg_h6bdDFki]h=i^FOU1
+R1
+R0
+w1604601613
+8half.vo
+Fhalf.vo
+L0 264
+R2
+r1
+!s85 0
+31
+!s108 1604601625.000000
+!s107 half.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|half.vo|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+.
+R6

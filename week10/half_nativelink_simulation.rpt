@@ -1,0 +1,127 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  max10
+Quartus root          :  c:/intelfpga_lite/18.3/quartus/bin64/
+Quartus sim root      :  c:/intelfpga_lite/18.3/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  half.vo
+Sim SDF file          :  half__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/intelfpga_lite/18.3/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File half_run_msim_gate_verilog.do already exists - backing up current file as half_run_msim_gate_verilog.do.bak
+Probing transcript
+ModelSim-Altera Info: # Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+ModelSim-Altera Info: # do half_run_msim_gate_verilog.do
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+ModelSim-Altera Info: # vmap work gate_work 
+ModelSim-Altera Info: # Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {half.vo}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 23:40:25 on Nov 05,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." half.vo 
+ModelSim-Altera Info: # -- Compiling module half
+ModelSim-Altera Info: # -- Compiling module hard_block
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	half
+ModelSim-Altera Info: # End time: 23:40:25 on Nov 05,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/innopolis\ 1st\ semestr/Computer\ Architecture/week10/ex1 {D:/innopolis 1st semestr/Computer Architecture/week10/ex1/half.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 23:40:26 on Nov 05,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/innopolis 1st semestr/Computer Architecture/week10/ex1" D:/innopolis 1st semestr/Computer Architecture/week10/ex1/half.v 
+ModelSim-Altera Info: # -- Compiling module half
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	half
+ModelSim-Altera Info: # End time: 23:40:26 on Nov 05,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/innopolis\ 1st\ semestr/Computer\ Architecture/week10/ex1 {D:/innopolis 1st semestr/Computer Architecture/week10/ex1/half_adder_testbench.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+ModelSim-Altera Info: # Start time: 23:40:26 on Nov 05,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/innopolis 1st semestr/Computer Architecture/week10/ex1" D:/innopolis 1st semestr/Computer Architecture/week10/ex1/half_adder_testbench.v 
+ModelSim-Altera Info: # -- Compiling module half_adder_testbench
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	half_adder_testbench
+ModelSim-Altera Info: # End time: 23:40:27 on Nov 05,2020, Elapsed time: 0:00:01
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  testbench1
+ModelSim-Altera Info: # vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" testbench1 
+ModelSim-Altera Info: # Start time: 23:40:28 on Nov 05,2020
+ModelSim-Altera Error: # ** Error: (vsim-3170) Could not find 'testbench1'.
+ModelSim-Altera Info: #         Searched libraries:
+ModelSim-Altera Info: #             C:/intelFPGA/18.1/modelsim_ase/altera/verilog/altera
+ModelSim-Altera Info: #             C:/intelFPGA/18.1/modelsim_ase/altera/verilog/altera_lnsim
+ModelSim-Altera Info: #             C:/intelFPGA/18.1/modelsim_ase/altera/verilog/fiftyfivenm
+ModelSim-Altera Info: #             D:/innopolis 1st semestr/Computer Architecture/week10/ex1/simulation/modelsim/gate_work
+ModelSim-Altera Info: #             D:/innopolis 1st semestr/Computer Architecture/week10/ex1/simulation/modelsim/gate_work
+ModelSim-Altera Info: # Error loading design
+ModelSim-Altera Info: # Error: Error loading design
+ModelSim-Altera Info: #        Pausing macro execution
+ModelSim-Altera Info: # MACRO ./half_run_msim_gate_verilog.do PAUSED at line 13
+ModelSim-Altera Info: vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=\"+acc\" work.half_adder_testbench
+ModelSim-Altera Info: # vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" work.half_adder_testbench 
+ModelSim-Altera Info: # Start time: 23:40:28 on Nov 05,2020
+ModelSim-Altera Info: # Loading work.half_adder_testbench
+ModelSim-Altera Info: # Loading work.half
+ModelSim-Altera Info: run -all
+ModelSim-Altera Info: # a= 0 b = 1 sum = 1 carry = 0
+ModelSim-Altera Info: # a= 1 b = 0 sum = 1 carry = 0
+ModelSim-Altera Info: # a= 0 b = 0 sum = 0 carry = 0
+ModelSim-Altera Info: # a= 1 b = 1 sum = 0 carry = 1
+ModelSim-Altera Info: # End time: 23:53:56 on Nov 05,2020, Elapsed time: 0:13:28
+ModelSim-Altera Info: # Errors: 1, Warnings: 0
+Error: Errors encountered while running modelsim do file
+Error: NativeLink simulation flow was NOT successful
+
+
+
+================The following additional information is provided to help identify the cause of error while running nativelink scripts=================
+Nativelink TCL script failed with errorCode:  1
+Nativelink TCL script failed with errorInfo:  1
+    (procedure "launch_sim" line 1)
+    invoked from within
+"launch_sim launch_args_hash"
+    ("eval" body line 1)
+    invoked from within
+"eval launch_sim launch_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+                set savedCode $::errorCode
+                set savedInfo $::errorInfo
+                error $result $..."
+    invoked from within
+"if [catch {eval launch_sim launch_args_hash} result ] {
+            set status 1
+            if [ info exists ::errorCode ] {
+                set save..."
+    (procedure "run_sim" line 74)
+    invoked from within
+"run_sim run_sim_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+            set savedCode $::errorCode
+            set savedInfo $::errorInfo
+            error "$result" $savedInfo ..."
+    (procedure "run_eda_simulation_tool" line 334)
+    invoked from within
+"run_eda_simulation_tool eda_opts_hash"
