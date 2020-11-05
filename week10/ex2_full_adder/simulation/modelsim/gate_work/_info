@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/innopolis 1st semestr/Computer Architecture/week10/ex2/simulation/modelsim
+vfull
+Z1 !s110 1604603377
+!i10b 1
+!s100 =`1UgFUl?X]BIPjBYHa8T0
+I7eoS^QikL4aQ3ZG0fzLBa3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1604602975
+8D:/innopolis 1st semestr/Computer Architecture/week10/ex2/full.v
+FD:/innopolis 1st semestr/Computer Architecture/week10/ex2/full.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1604603377.000000
+!s107 D:/innopolis 1st semestr/Computer Architecture/week10/ex2/full.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/innopolis 1st semestr/Computer Architecture/week10/ex2|D:/innopolis 1st semestr/Computer Architecture/week10/ex2/full.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/innopolis 1st semestr/Computer Architecture/week10/ex2}
+Z7 tCvgOpt 0
+vhard_block
+!s110 1604603376
+!i10b 1
+!s100 nh@VHF=db0oomF[fNEFZo3
+IgBG]?;zjNQK<R`nzjYg9B1
+R2
+R0
+w1604603368
+8full.vo
+Ffull.vo
+L0 280
+R3
+r1
+!s85 0
+31
+!s108 1604603376.000000
+!s107 full.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|full.vo|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+.
+R7
+vtestbench
+R1
+!i10b 1
+!s100 kFoXzISm[5ejV55gX]3MF0
+I5GWi7TAZjG=4gfCS<_4zb0
+R2
+R0
+w1604603255
+8D:/innopolis 1st semestr/Computer Architecture/week10/ex2/testbench.v
+FD:/innopolis 1st semestr/Computer Architecture/week10/ex2/testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/innopolis 1st semestr/Computer Architecture/week10/ex2/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/innopolis 1st semestr/Computer Architecture/week10/ex2|D:/innopolis 1st semestr/Computer Architecture/week10/ex2/testbench.v|
+!i113 1
+R5
+R6
+R7
