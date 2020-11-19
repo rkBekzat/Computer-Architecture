@@ -1,0 +1,26 @@
+module mux(
+	input [31:0] add_r, sub_r, srl_r;
+	input [5:0] func;
+	input [4:0] rd
+);
+	
+
+always @*
+begin
+    case (funct)
+        6'b100000:  
+        begin
+            glob.r[rd] <= add_r;
+        end
+        6'b100010:
+        begin
+            glob.r[rd] <= sub_r;    
+        end
+        6'b000010:
+        begin
+            glob.r[rd] <= srl_r;
+        end
+    endcase
+end
+
+endmodule

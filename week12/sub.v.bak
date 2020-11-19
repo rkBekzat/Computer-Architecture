@@ -1,0 +1,8 @@
+module sub(
+	input [4:0] rs, rt;
+	output [31:0] ans;
+);
+
+assign ans = glob.r[rs] - glob.r[rt];
+
+endmodule	

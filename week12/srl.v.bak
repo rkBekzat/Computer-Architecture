@@ -1,0 +1,9 @@
+module srl(
+	input [4:0] rt, shamt;
+	output [31:0] ans
+);
+
+assign ans = glob.r[rt] >> shamt;
+
+endmodule
+	
