@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/innopolis 1st semestr/Computer Architecture/week13/simulation/modelsim
+valu_decoder
+Z1 !s110 1606401112
+!i10b 1
+!s100 E1oc?PUPz9_C48E<^LVTK3
+IK;9iZaaI@[OjnQF6fRSG@0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1606400778
+8D:/innopolis 1st semestr/Computer Architecture/week13/alu_decoder.v
+FD:/innopolis 1st semestr/Computer Architecture/week13/alu_decoder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1606401112.000000
+!s107 D:/innopolis 1st semestr/Computer Architecture/week13/alu_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/innopolis 1st semestr/Computer Architecture/week13|D:/innopolis 1st semestr/Computer Architecture/week13/alu_decoder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/innopolis 1st semestr/Computer Architecture/week13}
+Z7 tCvgOpt 0
+vdecoder
+R1
+!i10b 1
+!s100 i=hVCPXo=2FLOzZeaD1R^2
+I@NPi@YoKQ3=M9zPmk[oT[3
+R2
+R0
+w1606400701
+8D:/innopolis 1st semestr/Computer Architecture/week13/decoder.v
+FD:/innopolis 1st semestr/Computer Architecture/week13/decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/innopolis 1st semestr/Computer Architecture/week13/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/innopolis 1st semestr/Computer Architecture/week13|D:/innopolis 1st semestr/Computer Architecture/week13/decoder.v|
+!i113 1
+R5
+R6
+R7
+vhard_block
+R1
+!i10b 1
+!s100 3J0=7YP8_n9Cn=A@GNT:20
+IVNBKI]:m4`P=^MS]jTX9a1
+R2
+R0
+w1606401103
+8decoder.vo
+Fdecoder.vo
+L0 1095
+R3
+r1
+!s85 0
+31
+R4
+!s107 decoder.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|decoder.vo|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+.
+R7
+vmain_decoder
+R1
+!i10b 1
+!s100 RZUG[XZ?:oO`lmmlkmT4F0
+I^_[VPC7_b=a6aB;z2^Ch_2
+R2
+R0
+w1606400736
+8D:/innopolis 1st semestr/Computer Architecture/week13/main_decoder.v
+FD:/innopolis 1st semestr/Computer Architecture/week13/main_decoder.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/innopolis 1st semestr/Computer Architecture/week13/main_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/innopolis 1st semestr/Computer Architecture/week13|D:/innopolis 1st semestr/Computer Architecture/week13/main_decoder.v|
+!i113 1
+R5
+R6
+R7
+vtestbench
+!s110 1606401113
+!i10b 1
+!s100 8j^925n7Zd;RLhW=[8Ag<3
+IUN7b4h=L2W?]a<GeGR?5]0
+R2
+R0
+w1606398882
+8D:/innopolis 1st semestr/Computer Architecture/week13/testbench.v
+FD:/innopolis 1st semestr/Computer Architecture/week13/testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1606401113.000000
+!s107 D:/innopolis 1st semestr/Computer Architecture/week13/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/innopolis 1st semestr/Computer Architecture/week13|D:/innopolis 1st semestr/Computer Architecture/week13/testbench.v|
+!i113 1
+R5
+R6
+R7
